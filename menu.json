@@ -1,0 +1,34 @@
+[
+    {
+      "id": 5170,
+      "materia": "Introducción a la Programación"
+    },
+    {
+      "id": 5171,
+      "materia": "Estructuras de Datos"
+    },
+    {
+      "id": 5172,
+      "materia": "Bases de Datos"
+    },
+    {
+      "id": 5173,
+      "materia": "Sistemas Operativos"
+    },
+      {
+      "id": 5174,
+      "materia": "Redes de Computadoras"
+    },
+      {
+      "id": 5175,
+      "materia": "Inteligencia Artificial"
+    },
+      {
+      "id": 5176,
+      "materia": "Desarrollo Web"
+    },
+      {
+      "id": 5177,
+      "materia": "Ciberseguridad"
+    }
+  ]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+    </header>
+    <main>
+        <label for="menu">Elige tu materia</label>
+        <select name="menu" id="menu">
+            <option value="placeholder" disabled selected>Seleccione una opcion</option>
+        </select>
+
+
+        
+
+        <form id="formulario">
+            <h2>Agregar nueva materia</h2>
+            <div>
+                
+                <label for="clave" class="form-label">Digite código de la materia:</label>
+                <input type="number" id="clave" name="clave" required placeholder="Ej:5180">
+                <label for="materia">Nombre de la materia:</label>
+                <input type="text" id="materia" name="materia" required placeholder="Ej:Programacion II">
+            </div>
+            <button type="submit">Agregar materia</button>
+        </form>
+    </main>
+</body>
+<script src="./app.js"></script>
+</html>
