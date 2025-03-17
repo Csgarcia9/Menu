@@ -1,33 +1,34 @@
 fetch("./menu.json")
   .then(response => response.json())
-  .then(menuData => {
-    const menuContainer = document.getElementById("menuContainer");
+  .then(data => {
+    const deportesContainer = document.getElementById("deportesContainer");
 
-    menuData.carreras.forEach(carrera => {
+    data.deportes.forEach(deporte => {
       const dropdownDiv = document.createElement("div");
       dropdownDiv.className = "dropdown";
 
       const span = document.createElement("span");
       span.className = "dropdown-text text-white";
       span.setAttribute("data-bs-toggle", "dropdown");
-      span.textContent = carrera.nombre;
+      span.textContent = deporte.nombre;
 
       const ul = document.createElement("ul");
       ul.className = "dropdown-menu";
 
-      carrera.materias.forEach(materia => {
+      deporte.noticias.forEach(noticia => {
         const li = document.createElement("li");
         const a = document.createElement("a");
         a.className = "dropdown-item mouseover";
-        a.href = "#";
-        a.textContent = materia.nombre;
+        a.href = noticia.link;
+        a.textContent = noticia.nombre;
+        a.target = 'blank';
         li.appendChild(a);
         ul.appendChild(li);
       });
 
       dropdownDiv.appendChild(span);
       dropdownDiv.appendChild(ul);
-      menuContainer.appendChild(dropdownDiv);
+      deportesContainer.appendChild(dropdownDiv);
     });
   })
-  .catch(error => console.error("Error al cargar las opciones", error));
+  .catch(error => console.error("Error al cargar el archivo JSON:", error));
