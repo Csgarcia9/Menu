@@ -1,36 +1,81 @@
 {
-  "carreras": [
+  "deportes": [
     {
-      "id": "carr-info",
-      "nombre": "Informática",
-      "materias": [
-        { "id": "info-1", "nombre": "Programación Orientada a Objetos" },
-        { "id": "info-2", "nombre": "Bases de Datos Avanzadas" },
-        { "id": "info-3", "nombre": "Inteligencia Artificial" },
-        { "id": "info-4", "nombre": "Desarrollo de Aplicaciones Web" },
-        { "id": "info-5", "nombre": "Sistemas Operativos" }
+      "id": "dep-nba",
+      "nombre": "NBA",
+      "noticias": [
+        {
+          "id": "nba-not-1",
+          "nombre": "Steve Kerr supera miembro del Salón de la Fama",
+          "link": "https://www.nba.com/news/steve-kerr-tops-late-hall-of-famer-al-attles-for-most-coaching-wins-in-warriors-history"
+        },
+        {
+          "id": "nba-not-2",
+          "nombre": "Kia MVP Ladder",
+          "link": "https://www.nba.com/news/kia-mvp-ladder-march-7-2025-edition"
+        },
+        {
+          "id": "nba-not-3",
+          "nombre": "NBA Fantasy ",
+          "link": "https://www.nba.com/news/nba-fantasy-salary-cap-edition-week-22-preview"
+        },
+        {
+          "id": "nba-not-4",
+          "nombre": "Starting 5, March 16",
+          "link": "https://www.nba.com/news/starting-5-march-16-2025"
+        }
       ]
     },
     {
-      "id": "carr-med",
-      "nombre": "Medicina",
-      "materias": [
-        { "id": "med-1", "nombre": "Anatomía Humana" },
-        { "id": "med-2", "nombre": "Fisiología" },
-        { "id": "med-3", "nombre": "Farmacología" },
-        { "id": "med-4", "nombre": "Patología" },
-        { "id": "med-5", "nombre": "Cirugía General" }
+      "id": "dep-mlb",
+      "nombre": "MLB",
+      "noticias": [
+        {
+          "id": "mlb-not-1",
+          "nombre": "Shohei Ohtani",
+          "link": "https://www.mlb.com/es/news/shohei-ohtani-omnipresente-en-japon"
+        },
+        {
+          "id": "mlb-not-2",
+          "nombre": "Récord de jonrones",
+          "link": "https://es.wikipedia.org/wiki/Anexo:L%C3%ADderes_en_home_runs_en_las_Grandes_Ligas_de_B%C3%A9isbol"
+        },
+        {
+          "id": "mlb-not-3",
+          "nombre": "Serie de Tokio",
+          "link": "https://www.mlb.com/es/news/serie-de-tokio-todo-lo-que-debes-saber-sobre-el-primer-juego"
+        },
+        {
+          "id": "mlb-not-4",
+          "nombre": "Noticias MLB",
+          "link": "https://www.mlb.com/es/news/serie-de-tokio-todo-lo-que-debes-saber-sobre-el-primer-juego"
+        },
+        {
+          "id": "mlb-not-5",
+          "nombre": "Resultados",
+          "link": "https://www.mlb.com/es/scores"
+        }
       ]
     },
     {
-      "id": "carr-der",
-      "nombre": "Derecho",
-      "materias": [
-        { "id": "der-1", "nombre": "Derecho Civil" },
-        { "id": "der-2", "nombre": "Derecho Penal" },
-        { "id": "der-3", "nombre": "Derecho Constitucional" },
-        { "id": "der-4", "nombre": "Derecho Laboral" },
-        { "id": "der-5", "nombre": "Derecho Mercantil" }
+      "id": "dep-mls",
+      "nombre": "MLS",
+      "noticias": [
+        {
+          "id": "mls-not-1",
+          "nombre": "Resultados de la jornada",
+          "link": "https://es.mlssoccer.com/calendario/resultados#competition=all&club=all&date=2025-03-18"
+        },
+        {
+          "id": "mls-not-2",
+          "nombre": "Noticias MLS",
+          "link": "https://es.mlssoccer.com/noticias/"
+        },
+        {
+          "id": "mls-not-3",
+          "nombre": "Posiciones",
+          "link": "https://es.mlssoccer.com/posiciones/?#season=2024&live=true"
+        }
       ]
     }
   ]
