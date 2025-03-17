@@ -1,0 +1,37 @@
+{
+  "carreras": [
+    {
+      "id": "carr-info",
+      "nombre": "Informática",
+      "materias": [
+        { "id": "info-1", "nombre": "Programación Orientada a Objetos" },
+        { "id": "info-2", "nombre": "Bases de Datos Avanzadas" },
+        { "id": "info-3", "nombre": "Inteligencia Artificial" },
+        { "id": "info-4", "nombre": "Desarrollo de Aplicaciones Web" },
+        { "id": "info-5", "nombre": "Sistemas Operativos" }
+      ]
+    },
+    {
+      "id": "carr-med",
+      "nombre": "Medicina",
+      "materias": [
+        { "id": "med-1", "nombre": "Anatomía Humana" },
+        { "id": "med-2", "nombre": "Fisiología" },
+        { "id": "med-3", "nombre": "Farmacología" },
+        { "id": "med-4", "nombre": "Patología" },
+        { "id": "med-5", "nombre": "Cirugía General" }
+      ]
+    },
+    {
+      "id": "carr-der",
+      "nombre": "Derecho",
+      "materias": [
+        { "id": "der-1", "nombre": "Derecho Civil" },
+        { "id": "der-2", "nombre": "Derecho Penal" },
+        { "id": "der-3", "nombre": "Derecho Constitucional" },
+        { "id": "der-4", "nombre": "Derecho Laboral" },
+        { "id": "der-5", "nombre": "Derecho Mercantil" }
+      ]
+    }
+  ]
+}
