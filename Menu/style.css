@@ -1,0 +1,22 @@
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  left: -10px;
+  
+}
+
+.mouseover:hover{
+  background-color: gray;
+}
+header{
+  margin-bottom: 100px;
+}
+.container{
+  margin-bottom: 50px;
+}
+
+.galeria-deportes{
+  height: auto;
+  width: auto;
+  
+}
